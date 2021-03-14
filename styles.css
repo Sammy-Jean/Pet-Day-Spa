@@ -104,9 +104,9 @@ body {
 
 /* Masthead - Section 1 Styles  */
 .masthead {
- background: url('../images/Golden_Doodle.jpg') center/cover no-repeat;
-  position: relative;
-  min-height: 70vh;
+  background-color: url('../images/Dog_Tug.jpg') center/cover no-repeat fixed;
+    position: relative;
+min-height: 70vh;
 }
 .masthead img {
 max-width: 100%;
