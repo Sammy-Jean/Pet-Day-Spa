@@ -48,7 +48,7 @@
           <a href="#services" class="nav-links">Services</a>
         </li>
         <li>
-          <a href="#SignUp" class="nav-links">Register</a>
+          <a href="#register" class="nav-links">Register</a>
         </li>
         <li>
           <a href="#locations" class="nav-links">locations</a>
@@ -106,7 +106,7 @@
             Cat boarding
           </li>
         </ul>
-        <a href="#SignUp" class="button">Register Now!</a>
+        <a href="#register" class="button" >Register Now!</a>
       </article>
       <aside class="slider">
         <div>
@@ -154,7 +154,54 @@
     </section>
 
     <!-- Contact form section  TBD -->
+    <section >
+          <div class="container2" id="register">
+            <h1>Contact Us</h1><br />
+            <p>Please fill out the form below and someone will be in contact with you shortly</p><br />
+            <!-- First Name Input  -->
+            <form name="contact" method="POST" data-netlify="true">
 
+              <div class="first-name input-section">
+                <label for="firstname" class="label_input_wrap">First Name:
+                </label>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required />
+              </div>
+              <!-- Last name input -->
+              <div class="last-name input-section">
+                <label for="lastname" class="label_input_wrap">Last Name: </label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" />
+              </div>
+              <!-- Email Input -->
+              <div class="email input-section">
+                <label for="email" class="label_input_wrap">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email Address" required />
+              </div>
+
+              <!-- Phone Input -->
+
+              <div class="Telephone input-section">
+                <label for="telephone" class="label_input_wrap">Telephone:</label>
+                <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
+              </div>
+
+              <!-- Text Area -->
+              <div class="input-section">
+                <label for="comments" class="label_input_wrap">Comments:</label>
+                <textarea name="comments" id="comments" cols="40" rows="5" placeholder="Your Comments Go here"></textarea>
+              </div>
+
+
+              <!-- reset -->
+              <div class="reset input-section">
+                <input type="reset" value="Try Agian" />
+              </div>
+              <!-- submit button -->
+              <div class="submit input-section">
+                <input type="submit" value="Submit Form" />
+              </div>
+            </form>
+          </div>
+        </section>
     <!-- Map Section  -->
     <section class="map" id="locations">
       <h2>Visit Us!</h2>
@@ -170,7 +217,7 @@
 
     <!-- Footer -->
     <footer class="footer" id="footer">
-      <p>Connect with us! </p>
+      <p>Connect with us!</p>
       <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
       <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
       <a href="mailto:info@PetDaySpa.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
