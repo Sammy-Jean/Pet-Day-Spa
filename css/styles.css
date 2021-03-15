@@ -190,7 +190,7 @@ body {
 .slick-next:before {
   content: '\f0a9';
   font-family: "FontAwesome";
-  font-size: 1.4;
+  font-size: 1.4rem;
   color: #84C3C8;
 }
 
