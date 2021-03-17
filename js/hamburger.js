@@ -1,4 +1,4 @@
-https://codepen.io/g13nn/pen/eHGEF
+//https://codepen.io/g13nn/pen/eHGEF
 
 let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
